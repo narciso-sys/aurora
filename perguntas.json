@@ -1,0 +1,146 @@
+[
+  {
+    "category": "Finanças Pessoais",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "O que é um orçamento pessoal?",
+    "correct_answer": "Um plano para gerenciar receitas e despesas",
+    "incorrect_answers": [
+      "Um tipo de investimento de alto risco",
+      "Um empréstimo para educação",
+      "Uma conta poupança especial"
+    ]
+  },
+  {
+    "category": "Finanças Pessoais",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Qual é a principal vantagem de poupar dinheiro regularmente?",
+    "correct_answer": "Criar uma reserva para emergências e objetivos futuros",
+    "incorrect_answers": [
+      "Impressão de amigos e familiares",
+      "Evitar pagar impostos",
+      "Ganhar prêmios do banco"
+    ]
+  },
+  {
+    "category": "Investimentos",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "O que significa a diversificação em investimentos?",
+    "correct_answer": "Distribuir o dinheiro em diferentes tipos de aplicações para reduzir riscos",
+    "incorrect_answers": [
+      "Investir todo o dinheiro em uma única ação promissora",
+      "Aplicar apenas em poupança",
+      "Comprar vários imóveis na mesma região"
+    ]
+  },
+  {
+    "category": "Investimentos",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "O que são juros compostos?",
+    "correct_answer": "Juros calculados sobre o valor inicial mais os juros acumulados",
+    "incorrect_answers": [
+      "Juros aplicados apenas uma vez ao ano",
+      "Um tipo de imposto sobre investimentos",
+      "Juros que diminuem com o tempo"
+    ]
+  },
+  {
+    "category": "Crédito",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "O que é o cartão de crédito?",
+    "correct_answer": "Um instrumento de pagamento que permite compras a prazo",
+    "incorrect_answers": [
+      "Um cartão que só pode ser usado para saques",
+      "Um tipo de conta corrente especial",
+      "Um cartão com limite infinito"
+    ]
+  },
+  {
+    "category": "Crédito",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "O que é a taxa de juros do cartão de crédito?",
+    "correct_answer": "O custo do empréstimo quando não se paga a fatura integralmente",
+    "incorrect_answers": [
+      "Um valor fixo cobrado mensalmente pelo cartão",
+      "Um prêmio por usar o cartão frequentemente",
+      "Um desconto para pagamentos antecipados"
+    ]
+  },
+  {
+    "category": "Economia",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "O que é a inflação?",
+    "correct_answer": "Aumento generalizado dos preços de bens e serviços",
+    "incorrect_answers": [
+      "Queda no valor das ações na bolsa",
+      "Aumento do poder de compra da moeda",
+      "Crescimento acelerado da economia"
+    ]
+  },
+  {
+    "category": "Economia",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "O que é o PIB (Produto Interno Bruto)?",
+    "correct_answer": "Soma de todos os bens e serviços finais produzidos em um país",
+    "incorrect_answers": [
+      "Imposto sobre grandes fortunas",
+      "Programa de Integração Bancária",
+      "Percentual de Inadimplência Bancária"
+    ]
+  },
+  {
+    "category": "Poupança",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Para que serve uma reserva de emergência?",
+    "correct_answer": "Cobrir despesas inesperadas sem precisar contrair dívidas",
+    "incorrect_answers": [
+      "Comprar itens de luxo",
+      "Fazer apostas esportivas",
+      "Pagar festas e comemorações"
+    ]
+  },
+  {
+    "category": "Poupança",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Qual é a recomendação geral para o tamanho de uma reserva de emergência?",
+    "correct_answer": "De 3 a 6 meses de despesas essenciais",
+    "incorrect_answers": [
+      "Exatamente 1 mês de salário",
+      "Pelo menos 1 ano de todas as despesas",
+      "O valor de uma viagem internacional"
+    ]
+  },
+  {
+    "category": "Investimentos",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "O que são ações de uma empresa?",
+    "correct_answer": "Pequenas partes do capital social de uma empresa",
+    "incorrect_answers": [
+      "Empréstimos feitos à empresa",
+      "Bônus dados aos funcionários",
+      "Contratos de fornecimento exclusivo"
+    ]
+  },
+  {
+    "category": "Investimentos",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "O que é a taxa SELIC?",
+    "correct_answer": "Taxa básica de juros da economia brasileira",
+    "incorrect_answers": [
+      "Taxa de câmbio do real para dólar",
+      "Imposto sobre operações financeiras",
+      "Taxa de administração de fundos de investimento"
+    ]
+  }
+]

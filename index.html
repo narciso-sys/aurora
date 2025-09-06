@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Capital Bank - Seu Banco Educacional</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+
+    <nav class="navbar hidden" id="navbar">
+        <div class="nav-logo">
+            <i data-lucide="landmark"></i>
+            <span>Aurora Capital Bank</span>
+        </div>
+        <div class="nav-links">
+            <a href="#dashboard" class="nav-link" aria-label="Dashboard">
+                <i data-lucide="layout-dashboard" aria-hidden="true"></i> Dashboard
+            </a>
+            <a href="#transactions" class="nav-link" aria-label="Transações">
+                <i data-lucide="repeat" aria-hidden="true"></i> Transações
+            </a>
+            <a href="#investments" class="nav-link" aria-label="Investimentos">
+                <i data-lucide="trending-up" aria-hidden="true"></i> Investimentos
+            </a>
+            <a href="#games" class="nav-link" aria-label="Jogos">
+                <i data-lucide="gamepad-2" aria-hidden="true"></i> Jogos
+            </a>
+            <a href="#cards" class="nav-link" aria-label="Cartões">
+                <i data-lucide="credit-card" aria-hidden="true"></i> Cartões
+            </a>
+            <button id="logoutBtn" class="logout-btn" aria-label="Sair da conta">
+                <i data-lucide="log-out" aria-hidden="true"></i> Sair
+            </button>
+        </div>
+    </nav>
+
+    <main id="app">
+        <!-- Conteúdo dinâmico será injetado aqui -->
+    </main>
+
+    <!-- Scripts de configuração -->
+    <script src="firebase-config.js"></script>
+    <script src="ui.js"></script>
+    <script src="gemini.js"></script>
+    
+    <!-- Scripts de funcionalidades -->
+    <script src="main.js"></script>
+    <script src="dashboard.js"></script>
+    <script src="transactions.js"></script>
+    <script src="investments.js"></script>
+    <script src="games.js"></script>
+    <script src="cards.js"></script>
+
+    <script>
+        // Inicializar ícones Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
