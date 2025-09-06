@@ -1,13 +1,13 @@
 // Configuração do Firebase - Versão COMPAT (ESTÁVEL)
 const firebaseConfig = {
-  apiKey: "AIzaSyAOxTfFllkUMCPxkI1_aOi_o19ZB9_pVug",
-  authDomain: "aurora-5c272.firebaseapp.com",
-  databaseURL: "https://aurora-5c272-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "aurora-5c272",
-  storageBucket: "aurora-5c272.firebasestorage.app",
-  messagingSenderId: "730839225268",
-  appId: "1:730839225268:web:c946f301e5f51b4ed058e1"
-};
+    apiKey: "AIzaSyChvOc4mp34Xj1H-eVymYvmLoocRcJOUEw",
+    authDomain: "aurora-f5c63.firebaseapp.com",
+    databaseURL: "https://aurora-f5c63-default-rtdb.firebaseio.com",
+    projectId: "aurora-f5c63",
+    storageBucket: "aurora-f5c63.firebasestorage.app",
+    messagingSenderId: "74923929901",
+    appId: "1:74923929901:web:a7a3d970b95e57121fa3a4"
+  };
 
 // Inicializar Firebase com tratamento de erro
 try {
@@ -35,5 +35,6 @@ window.database = firebase.database ? firebase.database() : {
     transaction: () => Promise.reject('Database não disponível')
   })
 };
+
 
 window.firebaseReady = true;
